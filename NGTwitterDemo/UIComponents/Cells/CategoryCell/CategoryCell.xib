@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13189.4" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13165.3"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <deployment identifier="iOS"/>
+        <development version="8000" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -40,10 +41,8 @@
                 <constraint firstAttribute="bottom" secondItem="1Wy-YO-loo" secondAttribute="bottom" id="Gnn-m8-UOm"/>
                 <constraint firstItem="1Wy-YO-loo" firstAttribute="top" secondItem="UW3-p6-xHZ" secondAttribute="bottom" constant="10" id="Iqt-1r-zZZ"/>
                 <constraint firstItem="UW3-p6-xHZ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="ahb-GT-2AQ"/>
-                <constraint firstItem="UW3-p6-xHZ" firstAttribute="centerX" secondItem="ZTg-uK-7eu" secondAttribute="centerX" id="gKx-W1-aNx"/>
                 <constraint firstAttribute="trailing" secondItem="UW3-p6-xHZ" secondAttribute="trailing" constant="8" id="uvp-MZ-Jc3"/>
             </constraints>
-            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <size key="customSize" width="118" height="50"/>
             <connections>
                 <outlet property="categoryName" destination="UW3-p6-xHZ" id="lNw-ZL-rn8"/>
